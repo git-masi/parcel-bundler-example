@@ -1,0 +1,9 @@
+{
+  "map": false,
+  "plugins": {
+    "postcss-plugin": {},
+    "postcss-css-variables": {},
+    "postcss-preset-env": {},
+    "autoprefixer": {}
+  }
+}

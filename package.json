@@ -1,0 +1,28 @@
+{
+  "name": "designcourse-parcel-bundler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "prebuild": "rm -rf dist/",
+    "build": "npm run prebuild && parcel build src/index.html -d dist --public-url ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "postcss-css-variables": "^0.13.0",
+    "postcss-plugin": "^1.0.0",
+    "postcss-preset-env": "^6.7.0"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> .26%",
+    "ie 11"
+  ],
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  }
+}
